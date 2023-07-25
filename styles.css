@@ -1,0 +1,50 @@
+body{
+    background-color: white;
+}
+.entire-page{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    text-align:center;
+    max-width:800px;
+}
+.lesson-text{
+    flex-wrap:wrap;
+}
+.representative-bars{
+    display:flex;
+  
+    
+}
+.green-bar{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+ max-width:100px;
+  margin:0 20px 0 0;
+}
+.green-bar-color{
+    height:10px;
+max-width:100px;
+    background-color:green;
+
+}
+
+.purple-bar{
+    height:100000000px;
+    max-width:100px;
+    background-color:purple;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+}
+.purple-bar-title,
+.purple-bar-fact1,
+.purple-bar-fact2,
+.purple-bar-fact3,
+.purple-bar-fact4 {
+    height:600px;
+}
